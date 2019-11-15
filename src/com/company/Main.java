@@ -1,4 +1,5 @@
 package com.company;
+import java.awt.*;
 import java.util.Scanner;
 
 public class Main {
@@ -41,5 +42,9 @@ public class Main {
 
         int LongestString[][] ={{11,22,33} ,{1,2,3}};
         CombineTwoArrays.Combine_2_Arrays(LongestString);
+
+
+        FrameText objFt = new FrameText();
+        objFt.FrameSomeText();
     }
 }
